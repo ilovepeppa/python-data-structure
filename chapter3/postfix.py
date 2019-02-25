@@ -1,5 +1,5 @@
 import operator
-from stack import Stack
+from pythonds.stack import Stack
 
 
 def infix_to_postfix(infixexpr):

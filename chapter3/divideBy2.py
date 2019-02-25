@@ -1,4 +1,4 @@
-from stack import Stack
+from pythonds.stack import Stack
 
 
 def divide_by2(dec_number, base):

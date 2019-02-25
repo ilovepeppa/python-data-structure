@@ -1,4 +1,4 @@
-from .arrayList import Node, ArrayList
+from pythonds.arrayList import Node, ArrayList
 
 
 class UnorderedList(ArrayList):

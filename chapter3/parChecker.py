@@ -1,4 +1,4 @@
-from stack import Stack
+from pythonds.stack import Stack
 
 
 def par_checker_v1(symbol_string):
