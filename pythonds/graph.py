@@ -8,8 +8,8 @@ class Vertex:
         self.color = 'white'
         self.distance = sys.maxsize
         self.predecessor = None
-        self.discover = 9
-        self.finish = 9
+        self.discover = 0
+        self.finish = 0
 
     def add_neighbor(self, nbr, weight=0):
         self.connected_to[nbr] = weight
@@ -80,10 +80,12 @@ class Graph:
         if t not in self.vert_list:
             self.add_vertex(t)
 
+
         self.vert_list[f].add_neighbor(self.vert_list[t], weight)
 
     def get_vertices(self):
         return self.vert_list.keys()
+
 
     def __iter__(self):
         return iter(self.vert_list.values())
